@@ -3,7 +3,7 @@ agent any
 stages {
 	stage("checkout"){
 		steps{
-			git 'https://github.com/patil2624/taskjenkins.git'
+			git branch: 'branch1', url: 'https://github.com/patil2624/taskjenkins.git'
 		}
 	}
 	stage("exicute"){
