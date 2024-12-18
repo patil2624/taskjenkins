@@ -8,8 +8,8 @@ stages {
 	}
 	stage("permistion"){
 		steps{
-			sh ' chmod o+x file.sh'
-			sh ' chmod o+x file_dir.sh'
+			sh ' chmod u+x file.sh'
+			sh ' chmod u+x file_dir.sh'
 		}
 		}
 	stage("exicute"){
