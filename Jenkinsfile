@@ -8,8 +8,8 @@ stages {
 	}
 	stage("permistion"){
 		steps{
-			sh ' sudo chmod o+x file.sh'
-			sh 'sudo chmod o+x file_dir.sh'
+			sh ' chmod o+x file.sh'
+			sh ' chmod o+x file_dir.sh'
 		}
 		}
 	stage("exicute"){
